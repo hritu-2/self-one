@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>About me</title>
+    <script src="https://kit.fontawesome.com/bc34fc0c2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container" >
+      <nav >
+        <img src="Hlogo.png" class="logo">
+        <ul id="sidemenu">
+            <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            <li ><a href="#header">Home</a></li>
+            <li ><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+           
+        </ul>
+        <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>A WEB DEVELOPER</p>
+        <h1 class="hea1">Hey, I'm Hritu.</h1>
+      </div>  
+    </div>
+</div>
+<!--- --------------------------------About----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="nightFlo.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                     Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt 
+                     mollit anim id est laborum.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>1Web Development</span><br>Web App Development</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2Web Development</span><br>Web App Development</li>
+                    <li><span>2023-2023</span><br>MaxgenTech</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>3Web Development</span><br>Web App Development</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------SERVICES-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus 
+               </p>
+                <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Science</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam possimus commodi. 
+                </p>
+                <a href="#">Learn more</a>
+          </div> 
+          <div>
+            <i class="fa-solid fa-image"></i>
+            <h2>Image Processing</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos reiciendis 
+                </p>
+                 <a href="#">Learn more</a>
+          </div> 
+        </div>
+    </div>
+</div>
+<!------------PORTFOLIO-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="coffe.webp">
+                <div class="layer">
+                    <h3>Commercial Website</h3>
+                    <p>This website connects you to coffee beans and the smell of
+                         caffeine.Visit it now</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="fruitables.jpg" >
+                <div class="layer">
+                    <h3>Commercial Website</h3>
+                    <p>This website connects you to coffee beans and the smell of
+                         caffeine.Visit it now</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="coffeebee.webp" >
+                <div class="layer">
+                    <h3>Commercial Website</h3>
+                    <p>This website connects you to coffee beans and the smell of
+                         caffeine.Visit it now</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------------CONTACT--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i>0123456789</p><br>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="hritu (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2 btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  © Hritu. Made with<i class="fa-solid fa-lightbulb"></i>Creativity.</p>
+    </div>
+</div>
+
+<script>
+    var tabLinks=document.getElementsByClassName("tab-links");
+    var tabContents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tabLink of tabLinks){
+        tabLink.classList.remove("active-link")
+    }
+    for(tabContent of tabContents){
+        tabContent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-240px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxG22HG0IuJM5EqVlCeeOU1lsWcaQeGrT-A25aLruON0ehufZKqPx8YNjHm83PzDyY/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
